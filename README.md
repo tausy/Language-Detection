@@ -32,3 +32,8 @@ In Erik Tromp (2011), graph-based N-Gram approach was proposed for short and ill
 In Martin Thoma(2018), open source dataset of short text extracts for 235 languages has been explained. It is a well-balanced 
 classification dataset (with test–train split) that can be effectively used for language identification techniques.
 
+# METHODOLOGY
+The approach presented by Choong et al [6] for N-gram generation only considered Tri-Grams for the detection of languages. Moreover, it typically focuses on Non-latin(Asian and African) languages. In our approach, we have considered Mono, Bi and Tri-Grams and tried to extend the N-gram approach to identify the European languages or Latin languages precisely.
+
+A typical language identification system calculates language profiles from training texts of various language schemes using N-Grams(Figure-1). In a similar manner, the language profile for the target text is generated. The system then evaluates the matching rates of N-Grams between training and target profile. The matching rate is calculated as the average of match factors(mi) whenever an N-gram in target profile matched with a N-gram in the training corpus. Then the language with the highest match rate is returned as the language of a target web page given that the match rate is not lesser than the lower bound(LB). We have taken the value of LB as 0.5.
+This paper uses the updated version of the famous WiLI-2018 dataset [4]. WiLI-2018 benchmark dataset is created from Wikipedia web pages written in multiple languages and publicly available. The dataset consists of a total of 235 languages and more than 0.1M web pages of different languages. We have targeted 34 European Languages amounting to 18000 web pages from this dataset.
