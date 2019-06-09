@@ -37,3 +37,27 @@ The approach presented by Choong et al [6] for N-gram generation only considered
 
 A typical language identification system calculates language profiles from training texts of various language schemes using N-Grams(Figure-1). In a similar manner, the language profile for the target text is generated. The system then evaluates the matching rates of N-Grams between training and target profile. The matching rate is calculated as the average of match factors(mi) whenever an N-gram in target profile matched with a N-gram in the training corpus. Then the language with the highest match rate is returned as the language of a target web page given that the match rate is not lesser than the lower bound(LB). We have taken the value of LB as 0.5.
 This paper uses the updated version of the famous WiLI-2018 dataset [4]. WiLI-2018 benchmark dataset is created from Wikipedia web pages written in multiple languages and publicly available. The dataset consists of a total of 235 languages and more than 0.1M web pages of different languages. We have targeted 34 European Languages amounting to 18000 web pages from this dataset.
+
+
+# RESULTS AND DISCUSSION
+https://github.com/tausy/language-detection-n-gram/blob/master/ML_Research_Assignment2.pdf
+
+
+## REFERENCES
+
+[1] Ali Selamat , Nicholas Akosu.Word length algorithm for language identification of under-resourced languages.
+    
+[2] W. B. Cavnar and J. M. Trenkle. N-gram-based text categorization. In Proceedings of SDAIR-94, the 3rd Annual Symposium on     Document Analysis and Information Retrieval, pages 161.175, Las Vegas, Nevada, U.S.A 1994.
+
+[3] Izumi Suzuki, Yoshiki Mikami, Ario Ohsato, Yoshihide Chubachi. "A language and character set determination method based on     N-gram statistics." ACM Transactions on Asian Language Information Processing (TALIP), 2002: 269-278.
+
+[4] Martin Thoma, The WiLI benchmark dataset for written language identification arXiv:1801.07779v1 [cs.CV] 23 Jan 2018
+    
+[5] Bruno Martins, Mário J. Silva. Language identification in web pages. 2005 ACM symposium on Applied computing Santa Fe: ACM     New York, NY, USA, 2005.76-768.
+
+[6] Yew Choong Chew, Yoshiki Mikami, Robin Lee Nagano, Language Identification of Web Pages Based on Improved N-Gram Algorithm     IJCSI International Journal of Computer Science issues, Vol. 8, Issue 3, No. 1, May 2011 ISSN (Online): 1694-0814        
+    www.IJCSI.org.
+    
+[7] Chew Y. Choong,Yoshiki Mikami, C. A. Marasinghe and S.T. Nandasara. Optimizing n-gram Orderof an n-gram Based Language         Identification Algorithm for 68 Written Languages. The International Journal on Advances in ICT for Emerging Regions 2009     02 (02) : 21 - 28.
+
+[8] Erik Tromp, Mykola Pechenizkiy. Graph-Based N-gram Language Identification on Short Texts. Department of Computer Science,     Eindhoven University of Technology P.O. Box 513, 5600 MB, Eindhoven, The Netherlands.
