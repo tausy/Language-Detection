@@ -45,9 +45,9 @@ https://github.com/tausy/language-detection-n-gram/blob/master/ML_Research_Assig
 
 ## REFERENCES
 
-[1] Ali Selamat , Nicholas Akosu.Word length algorithm for language identification of under-resourced languages.
+[1]     Ali Selamat , Nicholas Akosu.Word length algorithm for language identification of under-resourced languages.
     
-[2] W. B. Cavnar and J. M. Trenkle. N-gram-based text categorization. In Proceedings of SDAIR-94, the 3rd Annual Symposium on     Document Analysis and Information Retrieval, pages 161.175, Las Vegas, Nevada, U.S.A 1994.
+[2]     W. B. Cavnar and J. M. Trenkle. N-gram-based text categorization. In Proceedings of SDAIR-94, the 3rd Annual Symposium         on Document Analysis and Information Retrieval, pages 161.175, Las Vegas, Nevada, U.S.A 1994.
 
 [3] Izumi Suzuki, Yoshiki Mikami, Ario Ohsato, Yoshihide Chubachi. "A language and character set determination method based on     N-gram statistics." ACM Transactions on Asian Language Information Processing (TALIP), 2002: 269-278.
 
@@ -55,8 +55,7 @@ https://github.com/tausy/language-detection-n-gram/blob/master/ML_Research_Assig
     
 [5] Bruno Martins, Mário J. Silva. Language identification in web pages. 2005 ACM symposium on Applied computing Santa Fe: ACM     New York, NY, USA, 2005.76-768.
 
-[6] Yew Choong Chew, Yoshiki Mikami, Robin Lee Nagano, Language Identification of Web Pages Based on Improved N-Gram Algorithm     IJCSI International Journal of Computer Science issues, Vol. 8, Issue 3, No. 1, May 2011 ISSN (Online): 1694-0814        
-    www.IJCSI.org.
+[6] Yew Choong Chew, Yoshiki Mikami, Robin Lee Nagano, Language Identification of Web Pages Based on Improved N-Gram Algorithm     IJCSI International Journal of Computer Science issues, Vol. 8, Issue 3, No. 1, May 2011 ISSN (Online): 1694-0814.
     
 [7] Chew Y. Choong,Yoshiki Mikami, C. A. Marasinghe and S.T. Nandasara. Optimizing n-gram Orderof an n-gram Based Language         Identification Algorithm for 68 Written Languages. The International Journal on Advances in ICT for Emerging Regions 2009     02 (02) : 21 - 28.
 
